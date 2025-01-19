@@ -1,0 +1,13 @@
+{
+  "name": "payload-db-setup",
+  "version": "0.0.1",
+  "description": "Sets up a mongoDB database for payload using docker compose for local development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker compose up -d",
+    "stop": "docker compose down"
+  },
+  "keywords": [],
+  "author": "Matias Baldanza",
+  "license": "ISC"
+}
